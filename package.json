@@ -9,7 +9,7 @@
     "release": "auto shipit"
   },
   "keywords": [],
-  "author": "",
+  "author": "kenset <[@kenset](https://github.com/kenset)>",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^18.0.0",
