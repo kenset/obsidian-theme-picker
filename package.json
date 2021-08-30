@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",
-    "build": "rollup --config rollup.config.js --environment BUILD:production && echo Build Finished"
+    "build": "rollup --config rollup.config.js --environment BUILD:production",
+    "release": "auto shipit"
   },
   "keywords": [],
   "author": "",
