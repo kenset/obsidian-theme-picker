@@ -1,6 +1,9 @@
 import { App, FuzzySuggestModal, KeymapEventListener } from "obsidian";
 
 export default class ThemePickerPluginModal extends FuzzySuggestModal<string> {
+	DEFAULT_THEME_KEY = "";
+	DEFAULT_THEME_TEXT = "None";
+
 	initialTheme: string;
 	previewing = false;
 
@@ -51,11 +54,15 @@ export default class ThemePickerPluginModal extends FuzzySuggestModal<string> {
 
 	getItems(): any[] {
 		//@ts-ignore
-		return this.app.customCss.themes;
+		return [this.DEFAULT_THEME_KEY, ...this.app.customCss.themes];
 	}
 
 	getItemText(item: any): string {
-		return item;
+		if (item === this.DEFAULT_THEME_KEY) {
+			return this.DEFAULT_THEME_TEXT;
+		} else {
+			return item;
+		}
 	}
 
 	onChooseItem(item: any, evt: MouseEvent | KeyboardEvent): void {
