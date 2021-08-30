@@ -16,9 +16,7 @@ jobs:
         run: npm install
         
       - name: Build for production
-        run: |
-          npm run build
-          return 0
+        run: npm run build
           
       - name: Release
         run: npm run release
