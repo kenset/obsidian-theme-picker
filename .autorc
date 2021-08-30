@@ -2,5 +2,8 @@
   "plugins": [
     "obsidian"
   ],
-  "author": "kenset <[@kenset](https://github.com/kenset)>"
+  "author": {
+    "name": "kenset",
+    "email": "<[@kenset](https://github.com/kenset)>"
+  }
 }
