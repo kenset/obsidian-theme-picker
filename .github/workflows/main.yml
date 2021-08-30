@@ -11,9 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
       - name: npm install
         run: npm install
+        
       - name: Build for production
         run: npm run build
+          
       - name: Release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npm run release
