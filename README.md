@@ -5,4 +5,4 @@ This plugin allows for quick selection of an installed theme without needing to 
 Currently limited to selecting from installed themes in `YOUR_VAULT/.obsidian/themes`
 
 ## Usage
-![Plugin Usage GIF](obsidian-theme-picker-usage.gif)
+![Plugin Usage GIF](https://raw.githubusercontent.com/kenset/obsidian-theme-picker/next/obsidian-theme-picker-usage.gif)
