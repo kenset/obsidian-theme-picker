@@ -1,3 +1,17 @@
+# 1.0.4 (Fri Sep 10 2021)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'next' ([@kenset](https://github.com/kenset))
+- Update README.md ([@kenset](https://github.com/kenset))
+
+#### Authors: 2
+
+- [@kenset](https://github.com/kenset)
+- kenset ([@kenset](https://github.com/kenset))
+
+---
+
 # 1.0.3 (Fri Sep 10 2021)
 
 #### 🐛 Bug Fix
