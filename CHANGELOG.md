@@ -1,3 +1,16 @@
+# 1.0.7 (Sat Oct 15 2022)
+
+#### 🐛 Bug Fix
+
+- Version bump [#17](https://github.com/kenset/obsidian-theme-picker/pull/17) ([@kenset](https://github.com/kenset))
+
+#### Authors: 2
+
+- [@kenset](https://github.com/kenset)
+- kenset ([@kenset](https://github.com/kenset))
+
+---
+
 # 1.0.5 (Sat Oct 15 2022)
 
 #### 🐛 Bug Fix
