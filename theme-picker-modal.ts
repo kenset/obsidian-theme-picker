@@ -54,7 +54,7 @@ export default class ThemePickerPluginModal extends FuzzySuggestModal<string> {
 
 	getItems(): any[] {
 		//@ts-ignore
-		return [this.DEFAULT_THEME_KEY, ...this.app.customCss.themes];
+		return [this.DEFAULT_THEME_KEY, ...Object.keys(this.app.customCss.themes), ...this.app.customCss.oldThemes];
 	}
 
 	getItemText(item: any): string {
