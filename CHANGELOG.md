@@ -1,3 +1,24 @@
+# 1.0.9 (Sat Oct 15 2022)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'master' into next [#17](https://github.com/kenset/obsidian-theme-picker/pull/17) ([@kenset](https://github.com/kenset))
+- 0.12.1 [#17](https://github.com/kenset/obsidian-theme-picker/pull/17) ([@kenset](https://github.com/kenset))
+- Version bump [#17](https://github.com/kenset/obsidian-theme-picker/pull/17) ([@kenset](https://github.com/kenset))
+- Fixes issue where themes would not appear in modal after 1.0.0 release [#17](https://github.com/kenset/obsidian-theme-picker/pull/17) ([@kenset](https://github.com/kenset))
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'next' ([@kenset](https://github.com/kenset))
+- Merge remote-tracking branch 'origin/master' into next ([@kenset](https://github.com/kenset))
+
+#### Authors: 2
+
+- [@kenset](https://github.com/kenset)
+- kenset ([@kenset](https://github.com/kenset))
+
+---
+
 # 1.0.7 (Sat Oct 15 2022)
 
 #### 🐛 Bug Fix
